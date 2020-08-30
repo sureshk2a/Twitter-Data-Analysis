@@ -3,7 +3,7 @@ from textblob import TextBlob
 import preprocessor as p
 import statistics
 from typing import List
-from secrets import consumer_key,consumer_secrets
+from keys import consumer_key,consumer_secrets
 
 auth = tweepy.AppAuthHandler(consumer_key,consumer_secrets)
 api = tweepy.API(auth)
