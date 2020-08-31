@@ -27,6 +27,9 @@ def get_followersCount(userID):
 def get_followingCount(userID):
     return api.get_user(userID).friends_count
 
+def get_userLocation(userID):
+    return api.get_user(userID).location
+
 #print(getUserInfo("Sureshpillai07"))
-print(get_TrendingList("2295424"))
+#print(get_TrendingList("2295424"))
 #print(get_followersCount("Sureshpillai07"))
